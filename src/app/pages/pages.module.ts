@@ -6,7 +6,6 @@ import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { ComponentsModule } from '../components/components.module';
 
-import { ChartsModule } from 'ng2-charts';
 //Components
 import { ProgressComponent } from './progress/progress.component';
 import { Grafica1Component } from './grafica1/grafica1.component';
@@ -31,7 +30,6 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     SharedModule,
     RouterModule,
     FormsModule,
-    ChartsModule,
     ComponentsModule,
   ],
 })
