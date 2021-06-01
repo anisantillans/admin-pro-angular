@@ -86,6 +86,9 @@
             <p *ngIf="campoNoValido('email')">
               * El email es obligatorio y tiene que ser válido
             </p>
+            <p *ngIf="contraseniasNoValidas()">
+              * Las contrasenias deben de ser iguales
+            </p>
             <p *ngIf="aceptaTerminos()">* Debe aceptar los términos de uso</p>
           </div>
         </div>
